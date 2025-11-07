@@ -10,14 +10,17 @@ ferramentas do ecossistema React.
 
 ## 🚀 Tecnologias utilizadas
 
-- **React**
-- **TypeScript**
-- **Vite**
-- **React Router**
-- **Context API**
-- **Reducer**
-- **Hooks**
-- **Web Worker**
+- **React 19** — criação da interface e componentes
+- **TypeScript** — tipagem estática e segurança no código
+- **Vite** — ambiente de desenvolvimento rápido e leve
+- **React Router 7** — gerenciamento de rotas da aplicação
+- **Context API + Reducer** — controle de estado global de forma simples e
+  eficiente
+- **Hooks personalizados** — encapsulamento de lógicas reutilizáveis
+- **Web Worker** — execução do temporizador em segundo plano
+- **Date-fns** — manipulação e formatação de datas
+- **Lucide React** — biblioteca de ícones
+- **React Toastify** — exibição de notificações visuais
 
 ---
 
@@ -27,10 +30,11 @@ Durante o desenvolvimento, aprimorei habilidades como:
 
 - Organização e estrutura de um projeto React moderno
 - Gerenciamento de estado global com Context API e Reducer
-- Criação e uso de hooks personalizados
+- Uso de hooks e Web Workers
 - Navegação entre rotas com React Router
-- Comunicação assíncrona usando Web Workers
-- Deploy e build de projetos com Vite e Vercel
+- Manipulação de datas com Date-fns
+- Integração de bibliotecas externas (Toastify, Lucide)
+- Deploy e build com Vite e Vercel
 
 ---
 
