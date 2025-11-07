@@ -1,73 +1,42 @@
-# React + TypeScript + Vite
+# ⏱️ Chronos Pomodoro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **Chronos Pomodoro** é um projeto desenvolvido como parte dos meus estudos em
+**React**.  
+Ele foi baseado em um curso online, onde repliquei o funcionamento de um timer
+Pomodoro para praticar e aprofundar meus conhecimentos nas principais
+ferramentas do ecossistema React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+- **React**
+- **TypeScript**
+- **Vite**
+- **React Router**
+- **Context API**
+- **Reducer**
+- **Hooks**
+- **Web Worker**
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 💡 O que aprendi
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Durante o desenvolvimento, aprimorei habilidades como:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Organização e estrutura de um projeto React moderno
+- Gerenciamento de estado global com Context API e Reducer
+- Criação e uso de hooks personalizados
+- Navegação entre rotas com React Router
+- Comunicação assíncrona usando Web Workers
+- Deploy e build de projetos com Vite e Vercel
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🌐 Acesse o projeto
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+👉
+[https://chronos-pomodoro-sand-omega.vercel.app/](https://chronos-pomodoro-sand-omega.vercel.app/)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
